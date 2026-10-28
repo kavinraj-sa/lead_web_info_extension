@@ -8,8 +8,7 @@ const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 const deleteBtn = document.getElementById("delete-btn")
 const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
-
-let tabBtn = document.getElementById("tab-btn")
+const tabBtn = document.getElementById("tab-btn")
 
 if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
